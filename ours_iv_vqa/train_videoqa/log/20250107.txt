@@ -1,0 +1,367 @@
+=> Effective BatchSize = 100
+
+===========Check Grad============
+img_special_token True
+mlm_projection True
+lang_model.logit_scale True
+lang_model.text.transformer.embeddings.word_embeddings.weight True
+lang_model.text.transformer.embeddings.position_embeddings.weight True
+lang_model.text.transformer.embeddings.token_type_embeddings.weight True
+lang_model.text.transformer.embeddings.LayerNorm.weight True
+lang_model.text.transformer.embeddings.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.0.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.0.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.0.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.0.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.0.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.0.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.0.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.0.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.0.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.0.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.0.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.0.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.0.output.dense.weight True
+lang_model.text.transformer.encoder.layer.0.output.dense.bias True
+lang_model.text.transformer.encoder.layer.0.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.0.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.1.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.1.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.1.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.1.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.1.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.1.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.1.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.1.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.1.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.1.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.1.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.1.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.1.output.dense.weight True
+lang_model.text.transformer.encoder.layer.1.output.dense.bias True
+lang_model.text.transformer.encoder.layer.1.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.1.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.2.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.2.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.2.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.2.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.2.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.2.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.2.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.2.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.2.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.2.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.2.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.2.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.2.output.dense.weight True
+lang_model.text.transformer.encoder.layer.2.output.dense.bias True
+lang_model.text.transformer.encoder.layer.2.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.2.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.3.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.3.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.3.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.3.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.3.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.3.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.3.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.3.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.3.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.3.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.3.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.3.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.3.output.dense.weight True
+lang_model.text.transformer.encoder.layer.3.output.dense.bias True
+lang_model.text.transformer.encoder.layer.3.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.3.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.4.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.4.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.4.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.4.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.4.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.4.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.4.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.4.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.4.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.4.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.4.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.4.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.4.output.dense.weight True
+lang_model.text.transformer.encoder.layer.4.output.dense.bias True
+lang_model.text.transformer.encoder.layer.4.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.4.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.5.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.5.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.5.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.5.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.5.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.5.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.5.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.5.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.5.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.5.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.5.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.5.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.5.output.dense.weight True
+lang_model.text.transformer.encoder.layer.5.output.dense.bias True
+lang_model.text.transformer.encoder.layer.5.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.5.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.6.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.6.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.6.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.6.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.6.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.6.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.6.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.6.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.6.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.6.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.6.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.6.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.6.output.dense.weight True
+lang_model.text.transformer.encoder.layer.6.output.dense.bias True
+lang_model.text.transformer.encoder.layer.6.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.6.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.7.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.7.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.7.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.7.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.7.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.7.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.7.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.7.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.7.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.7.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.7.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.7.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.7.output.dense.weight True
+lang_model.text.transformer.encoder.layer.7.output.dense.bias True
+lang_model.text.transformer.encoder.layer.7.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.7.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.8.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.8.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.8.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.8.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.8.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.8.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.8.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.8.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.8.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.8.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.8.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.8.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.8.output.dense.weight True
+lang_model.text.transformer.encoder.layer.8.output.dense.bias True
+lang_model.text.transformer.encoder.layer.8.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.8.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.9.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.9.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.9.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.9.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.9.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.9.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.9.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.9.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.9.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.9.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.9.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.9.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.9.output.dense.weight True
+lang_model.text.transformer.encoder.layer.9.output.dense.bias True
+lang_model.text.transformer.encoder.layer.9.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.9.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.10.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.10.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.10.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.10.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.10.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.10.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.10.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.10.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.10.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.10.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.10.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.10.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.10.output.dense.weight True
+lang_model.text.transformer.encoder.layer.10.output.dense.bias True
+lang_model.text.transformer.encoder.layer.10.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.10.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.11.attention.self.query.weight True
+lang_model.text.transformer.encoder.layer.11.attention.self.query.bias True
+lang_model.text.transformer.encoder.layer.11.attention.self.key.weight True
+lang_model.text.transformer.encoder.layer.11.attention.self.key.bias True
+lang_model.text.transformer.encoder.layer.11.attention.self.value.weight True
+lang_model.text.transformer.encoder.layer.11.attention.self.value.bias True
+lang_model.text.transformer.encoder.layer.11.attention.output.dense.weight True
+lang_model.text.transformer.encoder.layer.11.attention.output.dense.bias True
+lang_model.text.transformer.encoder.layer.11.attention.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.11.attention.output.LayerNorm.bias True
+lang_model.text.transformer.encoder.layer.11.intermediate.dense.weight True
+lang_model.text.transformer.encoder.layer.11.intermediate.dense.bias True
+lang_model.text.transformer.encoder.layer.11.output.dense.weight True
+lang_model.text.transformer.encoder.layer.11.output.dense.bias True
+lang_model.text.transformer.encoder.layer.11.output.LayerNorm.weight True
+lang_model.text.transformer.encoder.layer.11.output.LayerNorm.bias True
+lang_model.text.transformer.pooler.dense.weight True
+lang_model.text.transformer.pooler.dense.bias True
+lang_model.text.proj.0.weight True
+lang_model.text.proj.2.weight True
+img_proj.weight True
+img_proj.bias True
+img_proj_clip.weight True
+img_proj_clip.bias True
+fusion_module.type_embed True
+fusion_module.pos_embed True
+fusion_module.ln_init.weight True
+fusion_module.ln_init.bias True
+fusion_module.ln_type_init.weight True
+fusion_module.ln_type_init.bias True
+fusion_module.ln_position_init.weight True
+fusion_module.ln_position_init.bias True
+fusion_module.resblocks.0.attn.in_proj_weight True
+fusion_module.resblocks.0.attn.in_proj_bias True
+fusion_module.resblocks.0.attn.out_proj.weight True
+fusion_module.resblocks.0.attn.out_proj.bias True
+fusion_module.resblocks.0.ln_1.weight True
+fusion_module.resblocks.0.ln_1.bias True
+fusion_module.resblocks.0.mlp.c_fc.weight True
+fusion_module.resblocks.0.mlp.c_fc.bias True
+fusion_module.resblocks.0.mlp.c_proj.weight True
+fusion_module.resblocks.0.mlp.c_proj.bias True
+fusion_module.resblocks.0.ln_2.weight True
+fusion_module.resblocks.0.ln_2.bias True
+fusion_module.resblocks.1.attn.in_proj_weight True
+fusion_module.resblocks.1.attn.in_proj_bias True
+fusion_module.resblocks.1.attn.out_proj.weight True
+fusion_module.resblocks.1.attn.out_proj.bias True
+fusion_module.resblocks.1.ln_1.weight True
+fusion_module.resblocks.1.ln_1.bias True
+fusion_module.resblocks.1.mlp.c_fc.weight True
+fusion_module.resblocks.1.mlp.c_fc.bias True
+fusion_module.resblocks.1.mlp.c_proj.weight True
+fusion_module.resblocks.1.mlp.c_proj.bias True
+fusion_module.resblocks.1.ln_2.weight True
+fusion_module.resblocks.1.ln_2.bias True
+fusion_module.resblocks.2.attn.in_proj_weight True
+fusion_module.resblocks.2.attn.in_proj_bias True
+fusion_module.resblocks.2.attn.out_proj.weight True
+fusion_module.resblocks.2.attn.out_proj.bias True
+fusion_module.resblocks.2.ln_1.weight True
+fusion_module.resblocks.2.ln_1.bias True
+fusion_module.resblocks.2.mlp.c_fc.weight True
+fusion_module.resblocks.2.mlp.c_fc.bias True
+fusion_module.resblocks.2.mlp.c_proj.weight True
+fusion_module.resblocks.2.mlp.c_proj.bias True
+fusion_module.resblocks.2.ln_2.weight True
+fusion_module.resblocks.2.ln_2.bias True
+fusion_module.resblocks.3.attn.in_proj_weight True
+fusion_module.resblocks.3.attn.in_proj_bias True
+fusion_module.resblocks.3.attn.out_proj.weight True
+fusion_module.resblocks.3.attn.out_proj.bias True
+fusion_module.resblocks.3.ln_1.weight True
+fusion_module.resblocks.3.ln_1.bias True
+fusion_module.resblocks.3.mlp.c_fc.weight True
+fusion_module.resblocks.3.mlp.c_fc.bias True
+fusion_module.resblocks.3.mlp.c_proj.weight True
+fusion_module.resblocks.3.mlp.c_proj.bias True
+fusion_module.resblocks.3.ln_2.weight True
+fusion_module.resblocks.3.ln_2.bias True
+=================================
+
+pretrain from checkpoint /media/engs2527/2TBFast/step1_1.pth.tar
+Main loop starts
+Epoch:[0][   0/1994]	Time 3.04 (3.04)	Data 1.06 (0.53)	Loss 23.3882 (18.7616)
+Epoch:[0][   1/1994]	Time 2.01 (2.53)	Data 0.64 (0.43)	Loss 23.0576 (18.6607)
+Epoch:[0][   2/1994]	Time 1.90 (2.32)	Data 0.65 (0.39)	Loss 23.4780 (18.6397)
+Epoch:[0][   3/1994]	Time 1.90 (2.21)	Data 0.65 (0.38)	Loss 23.0990 (18.5872)
+Epoch:[0][   4/1994]	Time 2.14 (2.20)	Data 0.65 (0.37)	Loss 23.2688 (18.6006)
+Epoch:[0][   5/1994]	Time 1.89 (2.15)	Data 0.63 (0.36)	Loss 23.0621 (18.6155)
+Epoch:[0][   6/1994]	Time 1.91 (2.11)	Data 0.65 (0.35)	Loss 23.0687 (18.5953)
+Epoch:[0][   7/1994]	Time 1.92 (2.09)	Data 0.65 (0.35)	Loss 23.8128 (18.6293)
+Epoch:[0][   8/1994]	Time 1.92 (2.07)	Data 0.65 (0.35)	Loss 23.2757 (18.6283)
+Epoch:[0][   9/1994]	Time 2.15 (2.08)	Data 0.65 (0.35)	Loss 23.2293 (18.6220)
+Epoch:[0][  10/1994]	Time 1.91 (2.06)	Data 0.64 (0.34)	Loss 23.0156 (18.6069)
+Epoch:[0][  11/1994]	Time 1.93 (2.05)	Data 0.66 (0.34)	Loss 23.4090 (18.6115)
+Epoch:[0][  12/1994]	Time 1.93 (2.04)	Data 0.66 (0.34)	Loss 23.2589 (18.6077)
+Epoch:[0][  13/1994]	Time 1.93 (2.03)	Data 0.66 (0.34)	Loss 23.1914 (18.5893)
+Epoch:[0][  14/1994]	Time 2.17 (2.04)	Data 0.66 (0.34)	Loss 23.2683 (18.5870)
+Epoch:[0][  15/1994]	Time 1.92 (2.04)	Data 0.64 (0.34)	Loss 23.0424 (18.5791)
+Epoch:[0][  16/1994]	Time 1.94 (2.03)	Data 0.66 (0.34)	Loss 22.6789 (18.5654)
+Epoch:[0][  17/1994]	Time 1.95 (2.03)	Data 0.67 (0.34)	Loss 23.2322 (18.5722)
+Epoch:[0][  18/1994]	Time 1.97 (2.02)	Data 0.67 (0.34)	Loss 23.7725 (18.5850)
+Epoch:[0][  19/1994]	Time 2.22 (2.03)	Data 0.67 (0.34)	Loss 23.4246 (18.5807)
+Epoch:[0][  20/1994]	Time 1.96 (2.03)	Data 0.65 (0.34)	Loss 22.9840 (18.5768)
+Epoch:[0][  21/1994]	Time 1.97 (2.03)	Data 0.67 (0.34)	Loss 23.2960 (18.5811)
+Epoch:[0][  22/1994]	Time 1.98 (2.02)	Data 0.67 (0.34)	Loss 22.8965 (18.5721)
+Epoch:[0][  23/1994]	Time 1.97 (2.02)	Data 0.67 (0.34)	Loss 23.1272 (18.5632)
+Epoch:[0][  24/1994]	Time 2.24 (2.03)	Data 0.67 (0.34)	Loss 23.6435 (18.5649)
+Epoch:[0][  25/1994]	Time 1.96 (2.03)	Data 0.66 (0.34)	Loss 23.4876 (18.5713)
+Epoch:[0][  26/1994]	Time 1.99 (2.03)	Data 0.68 (0.34)	Loss 23.2438 (18.5712)
+Epoch:[0][  27/1994]	Time 1.99 (2.03)	Data 0.68 (0.34)	Loss 22.8611 (18.5642)
+Epoch:[0][  28/1994]	Time 2.00 (2.02)	Data 0.68 (0.34)	Loss 23.1730 (18.5582)
+Epoch:[0][  29/1994]	Time 2.26 (2.03)	Data 0.69 (0.34)	Loss 22.7820 (18.5496)
+Epoch:[0][  30/1994]	Time 1.99 (2.03)	Data 0.67 (0.34)	Loss 22.8758 (18.5397)
+Epoch:[0][  31/1994]	Time 2.00 (2.03)	Data 0.68 (0.34)	Loss 23.0989 (18.5358)
+Epoch:[0][  32/1994]	Time 2.00 (2.03)	Data 0.68 (0.34)	Loss 22.7306 (18.5209)
+Epoch:[0][  33/1994]	Time 2.00 (2.03)	Data 0.69 (0.34)	Loss 22.9357 (18.5110)
+Epoch:[0][  34/1994]	Time 2.27 (2.04)	Data 0.69 (0.34)	Loss 22.6297 (18.4989)
+Epoch:[0][  35/1994]	Time 2.00 (2.03)	Data 0.66 (0.34)	Loss 22.4446 (18.4845)
+Epoch:[0][  36/1994]	Time 2.02 (2.03)	Data 0.69 (0.34)	Loss 22.5785 (18.4782)
+Epoch:[0][  37/1994]	Time 2.01 (2.03)	Data 0.68 (0.34)	Loss 22.7811 (18.4706)
+Epoch:[0][  38/1994]	Time 2.02 (2.03)	Data 0.69 (0.34)	Loss 22.3793 (18.4588)
+Epoch:[0][  39/1994]	Time 2.29 (2.04)	Data 0.69 (0.34)	Loss 22.4664 (18.4516)
+Epoch:[0][  40/1994]	Time 2.00 (2.04)	Data 0.67 (0.34)	Loss 22.4603 (18.4404)
+Epoch:[0][  41/1994]	Time 2.01 (2.04)	Data 0.69 (0.34)	Loss 22.3101 (18.4274)
+Epoch:[0][  42/1994]	Time 2.02 (2.04)	Data 0.68 (0.34)	Loss 22.6921 (18.4149)
+Epoch:[0][  43/1994]	Time 2.02 (2.04)	Data 0.69 (0.34)	Loss 22.0647 (18.4002)
+Epoch:[0][  44/1994]	Time 2.26 (2.04)	Data 0.68 (0.34)	Loss 22.4304 (18.3886)
+Epoch:[0][  45/1994]	Time 2.00 (2.04)	Data 0.67 (0.34)	Loss 22.5486 (18.3818)
+Epoch:[0][  46/1994]	Time 2.02 (2.04)	Data 0.69 (0.34)	Loss 22.2439 (18.3695)
+Epoch:[0][  47/1994]	Time 2.02 (2.04)	Data 0.69 (0.34)	Loss 22.1765 (18.3581)
+Epoch:[0][  48/1994]	Time 2.04 (2.04)	Data 0.70 (0.34)	Loss 22.3675 (18.3493)
+Epoch:[0][  49/1994]	Time 2.27 (2.04)	Data 0.69 (0.34)	Loss 22.0768 (18.3379)
+Epoch:[0][  50/1994]	Time 2.01 (2.04)	Data 0.68 (0.34)	Loss 22.1800 (18.3262)
+Epoch:[0][  51/1994]	Time 2.04 (2.04)	Data 0.69 (0.34)	Loss 21.7324 (18.3100)
+Epoch:[0][  52/1994]	Time 2.03 (2.04)	Data 0.69 (0.34)	Loss 22.0140 (18.2944)
+Epoch:[0][  53/1994]	Time 2.02 (2.04)	Data 0.69 (0.34)	Loss 22.7359 (18.2893)
+Epoch:[0][  54/1994]	Time 2.29 (2.05)	Data 0.68 (0.34)	Loss 21.8986 (18.2762)
+Epoch:[0][  55/1994]	Time 2.04 (2.05)	Data 0.68 (0.34)	Loss 21.8328 (18.2635)
+Epoch:[0][  56/1994]	Time 2.03 (2.05)	Data 0.69 (0.34)	Loss 22.4460 (18.2561)
+Epoch:[0][  57/1994]	Time 2.03 (2.05)	Data 0.70 (0.34)	Loss 21.9856 (18.2446)
+Epoch:[0][  58/1994]	Time 2.03 (2.05)	Data 0.69 (0.34)	Loss 22.0636 (18.2364)
+Epoch:[0][  59/1994]	Time 2.28 (2.05)	Data 0.69 (0.34)	Loss 22.1623 (18.2265)
+Epoch:[0][  60/1994]	Time 2.03 (2.05)	Data 0.68 (0.34)	Loss 21.7864 (18.2150)
+Epoch:[0][  61/1994]	Time 2.04 (2.05)	Data 0.69 (0.34)	Loss 22.0021 (18.2052)
+Epoch:[0][  62/1994]	Time 2.03 (2.05)	Data 0.69 (0.34)	Loss 21.6057 (18.1912)
+Epoch:[0][  63/1994]	Time 2.03 (2.05)	Data 0.69 (0.34)	Loss 22.1451 (18.1818)
+Epoch:[0][  64/1994]	Time 2.30 (2.05)	Data 0.69 (0.34)	Loss 21.6760 (18.1690)
+Epoch:[0][  65/1994]	Time 2.02 (2.05)	Data 0.68 (0.34)	Loss 21.9228 (18.1586)
+Epoch:[0][  66/1994]	Time 2.05 (2.05)	Data 0.70 (0.34)	Loss 21.8231 (18.1455)
+Epoch:[0][  67/1994]	Time 2.03 (2.05)	Data 0.69 (0.34)	Loss 21.4968 (18.1332)
+Epoch:[0][  68/1994]	Time 2.04 (2.05)	Data 0.69 (0.34)	Loss 21.8382 (18.1213)
+Epoch:[0][  69/1994]	Time 2.29 (2.06)	Data 0.69 (0.34)	Loss 21.6212 (18.1074)
+Epoch:[0][  70/1994]	Time 2.02 (2.06)	Data 0.68 (0.34)	Loss 21.2289 (18.0920)
+Epoch:[0][  71/1994]	Time 2.04 (2.05)	Data 0.69 (0.34)	Loss 21.3504 (18.0779)
+Epoch:[0][  72/1994]	Time 2.07 (2.06)	Data 0.70 (0.34)	Loss 21.4995 (18.0649)
+Epoch:[0][  73/1994]	Time 2.05 (2.05)	Data 0.70 (0.34)	Loss 21.4265 (18.0517)
+Epoch:[0][  74/1994]	Time 2.32 (2.06)	Data 0.70 (0.34)	Loss 21.3424 (18.0391)
+Epoch:[0][  75/1994]	Time 2.02 (2.06)	Data 0.68 (0.34)	Loss 21.0385 (18.0247)
+Epoch:[0][  76/1994]	Time 2.04 (2.06)	Data 0.70 (0.34)	Loss 21.2914 (18.0125)
+Epoch:[0][  77/1994]	Time 2.04 (2.06)	Data 0.69 (0.34)	Loss 21.3185 (17.9981)
+Epoch:[0][  78/1994]	Time 2.05 (2.06)	Data 0.70 (0.34)	Loss 21.3282 (17.9835)
+Epoch:[0][  79/1994]	Time 2.33 (2.06)	Data 0.71 (0.34)	Loss 21.0236 (17.9691)
+Epoch:[0][  80/1994]	Time 2.03 (2.06)	Data 0.68 (0.34)	Loss 21.6084 (17.9592)
+Epoch:[0][  81/1994]	Time 2.04 (2.06)	Data 0.70 (0.34)	Loss 20.8934 (17.9423)
+Epoch:[0][  82/1994]	Time 2.05 (2.06)	Data 0.70 (0.34)	Loss 21.3220 (17.9307)
+Epoch:[0][  83/1994]	Time 2.05 (2.06)	Data 0.69 (0.34)	Loss 21.2378 (17.9177)
+Epoch:[0][  84/1994]	Time 2.33 (2.06)	Data 0.70 (0.34)	Loss 21.1545 (17.9044)
+Epoch:[0][  85/1994]	Time 2.02 (2.06)	Data 0.68 (0.34)	Loss 21.1129 (17.8902)
+Epoch:[0][  86/1994]	Time 2.03 (2.06)	Data 0.69 (0.34)	Loss 21.1485 (17.8784)
+Epoch:[0][  87/1994]	Time 2.04 (2.06)	Data 0.69 (0.34)	Loss 20.6783 (17.8626)
+Epoch:[0][  88/1994]	Time 2.04 (2.06)	Data 0.70 (0.34)	Loss 20.3721 (17.8453)
+Epoch:[0][  89/1994]	Time 2.28 (2.06)	Data 0.69 (0.34)	Loss 20.6817 (17.8294)
+Epoch:[0][  90/1994]	Time 2.03 (2.06)	Data 0.68 (0.34)	Loss 20.6360 (17.8135)
+Epoch:[0][  91/1994]	Time 2.06 (2.06)	Data 0.70 (0.34)	Loss 20.4897 (17.7982)
+Epoch:[0][  92/1994]	Time 2.04 (2.06)	Data 0.70 (0.34)	Loss 20.4637 (17.7828)
+Epoch:[0][  93/1994]	Time 2.05 (2.06)	Data 0.69 (0.34)	Loss 20.7182 (17.7667)
+Epoch:[0][  94/1994]	Time 2.29 (2.07)	Data 0.70 (0.34)	Loss 20.8901 (17.7536)
+Epoch:[0][  95/1994]	Time 2.01 (2.07)	Data 0.67 (0.34)	Loss 19.9742 (17.7372)
